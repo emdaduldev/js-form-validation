@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+</head>
+<body>
+    
+    <section id="form-validation">
+        <div class="form-heading">
+            <h2>Registration</h2>
+            <form action="#">
+                <div class="form-field">
+                    <input type="text" placeholder="enter your name" id="username">
+                    <div class="msg_err" id="user_err"></div>
+                </div>
+              
+                <div class="form-field">
+                    <input type="email" placeholder="enter your email" id="email">
+                    <div class="msg_err" id="email_err"></div>
+                </div>
+
+                <div class="form-field eye">
+                    <input type="password" placeholder="enter your password" id="password">
+                    <div class="msg_err" id="pass_err"></div>
+                    <button  id="show" onclick="eye_button()" ><i class="fa-solid fa-eye"></i></button>
+                </div>
+
+                <div class="form-field eye_one">
+                    <input type="password" placeholder="confirm password" id="confirm_password">
+                    <div class="msg_err" id="confirm_password_err"></div>
+                    <button  id="show_one" onclick="eye_button_one()" ><i class="fa-solid fa-eye"></i></button>
+                </div>
+                <div class="form-btn">
+                    <button onclick="signup()" type="submit">submit</button>
+                      </div>
+            </form>
+
+          
+            
+             
+  
+        </div>
+    </section>
+
+
+
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>
